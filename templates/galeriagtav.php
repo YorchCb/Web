@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<title>Galería multimedia</title>
-		{% include ('includes/head.html.twig') %}
+		<?php include 'templates/includes/head.html'; ?>
 		<script type="text/javascript">
 			var album=1;
 		</script>
@@ -18,7 +18,7 @@
 						</h1>	
 					</section>
 					<section id="Menu" class="col-xs-12">
-						<a href="./?action=home"> Inicio </a> /
+						<a href="/index.php"> Inicio </a> /
 						<a href=""> Eventos formales </a> /
 						<a href="./?action=qs"> Miembros y estadísticas</a> /
 						<a href="" target="_blank"> Crew </a> /
@@ -28,11 +28,11 @@
 			</header>
 				<b style="font-size: large;">Biblioteca Multimedia</b>
 				{% include ('includes/galeriagtav.html.twig') %}
-				{% include ('includes/endbody.html.twig') %}
+				<?php include 'templates/includes/endbody.html'; ?>
 				</section>
 	</body>
 		<footer class="col-xs-12">
-			{% include ('includes/footer.html.twig') %} 
+			<?php include 'templates/includes/footer.html'; ?>
 		</footer>
 	</div>
 </html>

@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<title>Battlefield 1</title>
-		{% include ('includes/head.html.twig') %}
+		<?php include 'includes/head.html'; ?>
 	</head>
 	 <div class="container">
 	 	<body>
@@ -10,7 +10,7 @@
 				<section class="main row">
 					<section id="Top" class="col-xs-12">
 						<h1>
-							<img src="images/GtavLogo.png" class="img-responsive" >
+							<img src="/images/GtavLogo.png" class="img-responsive" >
 							<div class="menuR">{% include ('includes/menu_session.html.twig') %}</div>
 						</h1>	
 					</section>
@@ -23,7 +23,7 @@
 					</section>
 			</header>
 						<br>
-						<img src="images\Portada.jpg" class="img-responsive">
+						<img src="/images/Portada.jpg" class="img-responsive">
 						<br>
 						<div class="col-xs-12 col-sm- col-md- col-lg-6">
 							BAJO CONSTRUCCIÓN
@@ -49,11 +49,11 @@
 						<div class="col-xs-3 col-sm- col-md-3 col-lg-">
 							Publicidad
 						</div >
-						{% include ('includes/endbody.html.twig') %}
+						<?php include 'includes/endbody.html'; ?>
 				</section>
 		</body>
 		<footer class="col-xs-12">
-			{% include ('includes/footer.html.twig') %} 
+			<?php include 'includes/footer.html'; ?>
 		</footer>
 	</div>
 </html>

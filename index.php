@@ -25,15 +25,15 @@
 					<section id="Juegos">
 						<br>
 						<article id="Bt1" class="col-xs-6 col-sm- col-md- col-lg-6">
-							<a href="./?action=bt1"> <img src="images/Battlefield1.jpg" class="img-responsive"> </a>
+							<a href="/templates/bt1.php"> <img src="images/Battlefield1.jpg" class="img-responsive"> </a>
 							<br>
 						</article>
 						<article id="Bt4" class="col-xs-6 col-sm- col-md- col-lg-6">
-							<a href="./?action=bt4"> <img src="images/Battlefield4.jpg" class="img-responsive"> </a>
+							<a href="/templates/bt4.php"> <img src="images/Battlefield4.jpg" class="img-responsive"> </a>
 							<br>
 						</article>			
 						<article id="GtaV" class="col-xs-6 col-sm- col-md- col-lg-6">
-							<a href="./?action=gtav"> <img src="images/GtaV.jpg" class="img-responsive"> </a>
+							<a href="/templates/gtav.php"> <img src="images/GtaV.jpg" class="img-responsive"> </a>
 							<br>
 						</article>
 						<article id="Proximamente" class="col-xs-6 col-sm- col-md- col-lg-6">
